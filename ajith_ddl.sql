@@ -1,5 +1,5 @@
-create table ajith_customer
+create or replace table ajith_customer
 (
- id cust_id,
+ cust_id int,
  name varchar
 );
